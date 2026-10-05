@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#101a2d">
+  <meta name="description" content="Préparation interactive au QCM de biologie UAX : cours, flashcards, planning, QCM adaptatifs et concours blancs.">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <title>UAX Biologie — Préparation interactive V3.1</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div id="app"></div>
+  <noscript>Ce site nécessite JavaScript pour les flashcards, QCM et le suivi de progression.</noscript>
+  <script src="assets/data.js"></script>
+  <script src="assets/app.js"></script>
+  <script>if('serviceWorker' in navigator && location.protocol!=='file:'){navigator.serviceWorker.register('./sw.js').catch(()=>{});}</script>
+</body>
+</html>
